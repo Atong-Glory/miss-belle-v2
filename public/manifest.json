@@ -1,0 +1,23 @@
+{
+  "name": "Miss Belle — Spoken Word Artist",
+  "short_name": "Miss Belle",
+  "description": "My words from the canvas of my heart. Telling your story like it was my experience.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F5",
+  "theme_color": "#C9A227",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ========================================
+   MISS BELLE — DUAL THEME DESIGN SYSTEM
+   Dark: "The Dark Stage" | Light: "Daylight on the Canvas"
+   ======================================== */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  --font-script: var(--font-vibes);
+
+  /* Theme-reactive semantic colors */
+  --color-void: var(--bg-void);
+  --color-stage: var(--bg-stage);
+  --color-curtain: var(--bg-curtain);
+  --color-warm-white: var(--text-primary);
+  --color-silver: var(--text-secondary);
+  --color-gold: #C9A227;
+  --color-gold-light: #E8D5B7;
+  --color-crimson: #8B0000;
+  --color-champagne: #E8D5B7;
+  --color-border-gold: var(--border-gold);
+  --color-input-bg: var(--input-bg);
+}
+
+/* ========================================
+   LIGHT THEME — "Daylight on the Canvas"
+   Warm parchment, ink-dark text, gold accents
+   ======================================== */
+
+:root {
+  --radius: 0.5rem;
+  --bg-void: #FAF8F5;
+  --bg-stage: #FFFFFF;
+  --bg-curtain: #F0EDE8;
+  --text-primary: #1A1A1A;
+  --text-secondary: #6B6B6B;
+  --border-gold: rgba(201, 162, 39, 0.2);
+  --input-bg: rgba(0, 0, 0, 0.04);
+
+  --background: #FAF8F5;
+  --foreground: #1A1A1A;
+  --card: #FFFFFF;
+  --card-foreground: #1A1A1A;
+  --popover: #FFFFFF;
+  --popover-foreground: #1A1A1A;
+  --primary: #C9A227;
+  --primary-foreground: #FFFFFF;
+  --secondary: #F0EDE8;
+  --secondary-foreground: #1A1A1A;
+  --muted: #F0EDE8;
+  --muted-foreground: #6B6B6B;
+  --accent: #C9A227;
+  --accent-foreground: #FFFFFF;
+  --destructive: #8B0000;
+  --border: rgba(201, 162, 39, 0.15);
+  --input: rgba(0, 0, 0, 0.08);
+  --ring: #C9A227;
+  --chart-1: #C9A227;
+  --chart-2: #8B0000;
+  --chart-3: #6B6B6B;
+  --chart-4: #B22222;
+  --chart-5: #E8D5B7;
+  --sidebar: #F0EDE8;
+  --sidebar-foreground: #1A1A1A;
+  --sidebar-primary: #C9A227;
+  --sidebar-primary-foreground: #FFFFFF;
+  --sidebar-accent: #F0EDE8;
+  --sidebar-accent-foreground: #1A1A1A;
+  --sidebar-border: rgba(201, 162, 39, 0.15);
+  --sidebar-ring: #C9A227;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-card-hover: 0 4px 20px rgba(201, 162, 39, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
+  --hero-spotlight-1: rgba(201, 162, 39, 0.15);
+  --hero-spotlight-2: rgba(139, 0, 0, 0.06);
+  --hero-spotlight-3: rgba(201, 162, 39, 0.08);
+  --hero-spotlight-4: rgba(0, 0, 0, 0.04);
+}
+
+/* ========================================
+   DARK THEME — "The Dark Stage"
+   Void black, warm white text, gold stage light
+   ======================================== */
+
+.dark {
+  --bg-void: #0A0A0F;
+  --bg-stage: #12121A;
+  --bg-curtain: #08080D;
+  --text-primary: #F5F5F0;
+  --text-secondary: #A0A0A0;
+  --border-gold: rgba(201, 162, 39, 0.15);
+  --input-bg: rgba(201, 162, 39, 0.12);
+
+  --background: #0A0A0F;
+  --foreground: #F5F5F0;
+  --card: #12121A;
+  --card-foreground: #F5F5F0;
+  --popover: #12121A;
+  --popover-foreground: #F5F5F0;
+  --primary: #C9A227;
+  --primary-foreground: #0A0A0F;
+  --secondary: #1A1A25;
+  --secondary-foreground: #F5F5F0;
+  --muted: #1A1A25;
+  --muted-foreground: #A0A0A0;
+  --accent: #C9A227;
+  --accent-foreground: #0A0A0F;
+  --destructive: #8B0000;
+  --border: rgba(201, 162, 39, 0.15);
+  --input: rgba(201, 162, 39, 0.12);
+  --ring: #C9A227;
+  --chart-1: #C9A227;
+  --chart-2: #8B0000;
+  --chart-3: #A0A0A0;
+  --chart-4: #B22222;
+  --chart-5: #E8D5B7;
+  --sidebar: #1A1A25;
+  --sidebar-foreground: #F5F5F0;
+  --sidebar-primary: #C9A227;
+  --sidebar-primary-foreground: #0A0A0F;
+  --sidebar-accent: #1A1A25;
+  --sidebar-accent-foreground: #F5F5F0;
+  --sidebar-border: rgba(201, 162, 39, 0.15);
+  --sidebar-ring: #C9A227;
+
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-card-hover: 0 4px 30px rgba(201, 162, 39, 0.1), 0 2px 8px rgba(0, 0, 0, 0.3);
+  --hero-spotlight-1: rgba(201, 162, 39, 0.06);
+  --hero-spotlight-2: rgba(139, 0, 0, 0.04);
+  --hero-spotlight-3: rgba(201, 162, 39, 0.03);
+  --hero-spotlight-4: rgba(201, 162, 39, 0.03);
+}
+
+/* ========================================
+   BASE STYLES
+   ======================================== */
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    color-scheme: light dark;
+  }
+
+  body {
+    @apply bg-void text-warm-white antialiased;
+    font-family: var(--font-inter), system-ui, sans-serif;
+    overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  ::selection {
+    background: rgba(201, 162, 39, 0.25);
+    color: inherit;
+  }
+
+  /* Scrollbar — adapts to theme */
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--bg-void);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(201, 162, 39, 0.25);
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(201, 162, 39, 0.4);
+  }
+}
+
+/* ========================================
+   TYPOGRAPHY UTILITIES
+   ======================================== */
+
+.font-headline {
+  font-family: var(--font-playfair), "Georgia", serif;
+}
+
+.font-script {
+  font-family: var(--font-vibes), cursive;
+}
+
+.font-body {
+  font-family: var(--font-inter), system-ui, sans-serif;
+}
+
+/* ========================================
+   GOLD GLOW EFFECTS
+   ======================================== */
+
+.gold-glow {
+  text-shadow: 0 0 20px rgba(201, 162, 39, 0.3),
+               0 0 40px rgba(201, 162, 39, 0.1);
+}
+
+.gold-glow-strong {
+  text-shadow: 0 0 10px rgba(201, 162, 39, 0.5),
+               0 0 30px rgba(201, 162, 39, 0.3),
+               0 0 60px rgba(201, 162, 39, 0.1);
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 15px rgba(201, 162, 39, 0.1),
+              inset 0 0 15px rgba(201, 162, 39, 0.05);
+}
+
+.gold-border-glow:hover {
+  box-shadow: 0 0 25px rgba(201, 162, 39, 0.2),
+              inset 0 0 25px rgba(201, 162, 39, 0.08);
+}
+
+/* ========================================
+   GRADIENT UTILITIES
+   ======================================== */
+
+.gradient-gold {
+  background: linear-gradient(135deg, #C9A227, #E8D5B7, #C9A227);
+}
+
+.gradient-crimson {
+  background: linear-gradient(135deg, #8B0000, #B22222);
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #C9A227, #E8D5B7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ========================================
+   HERO OVERLAY — theme-aware
+   ======================================== */
+
+.hero-overlay {
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--bg-void) 100%
+  );
+}
+
+.dark .hero-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 15, 0.3) 0%,
+    rgba(10, 10, 15, 0.6) 50%,
+    rgba(10, 10, 15, 0.95) 85%,
+    #0A0A0F 100%
+  );
+}
+
+/* ========================================
+   SPOTLIGHT EFFECT
+   ======================================== */
+
+.spotlight-card {
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow 0.4s ease;
+}
+
+.spotlight-card:hover {
+  box-shadow: var(--shadow-card-hover);
+}
+
+.spotlight-card::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(
+    circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(201, 162, 39, 0.06) 0%,
+    transparent 50%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ========================================
+   AUDIO WAVEFORM ANIMATION
+   ======================================== */
+
+@keyframes waveform {
+  0%, 100% { height: 4px; }
+  50% { height: var(--wave-height, 20px); }
+}
+
+.waveform-bar {
+  animation: waveform var(--wave-duration, 1.2s) ease-in-out infinite;
+  animation-delay: var(--wave-delay, 0s);
+}
+
+/* ========================================
+   CURSOR BLINK
+   ======================================== */
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* ========================================
+   SECTION DIVIDER
+   ======================================== */
+
+.section-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--border-gold) 50%,
+    transparent 100%
+  );
+}
+
+/* ========================================
+   MIRROR TEXT SHIMMER
+   ======================================== */
+
+.mirror-text {
+  text-shadow: 0 0 1px rgba(201, 162, 39, 0.1);
+}
+
+/* ========================================
+   SCROLLBAR HIDE UTILITY
+   ======================================== */
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(201, 162, 39, 0.25) transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(201, 162, 39, 0.25);
+  border-radius: 2px;
+}
+
+/* ========================================
+   THEME TRANSITION
+   Targeted — only body + direct section children + shadcn surfaces
+   ======================================== */
+
+html.theme-transition body {
+  transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
+}
+
+html.theme-transition main,
+html.theme-transition header,
+html.theme-transition footer,
+html.theme-transition section,
+html.theme-transition [class*="bg-stage"],
+html.theme-transition [class*="bg-card"],
+html.theme-transition [class*="bg-void"],
+html.theme-transition [class*="bg-muted"] {
+  transition: background-color 0.35s ease-in-out, border-color 0.35s ease-in-out;
+}
+
+/* ========================================
+   KOM PATTERN DRIFT ANIMATION
+   ======================================== */
+
+@keyframes kom-pattern-drift {
+  0% { background-position-x: 0; }
+  100% { background-position-x: 60px; }
+}
+
+.kom-pattern-animated {
+  animation: kom-pattern-drift 30s linear infinite;
+}
+
+/* ========================================
+   VOICED CANVAS WAVEFORM GLOW
+   ======================================== */
+
+.waveform-canvas-glow {
+  filter: drop-shadow(0 0 6px rgba(201, 162, 39, 0.3));
+}
+
+/* ========================================
+   WHISPERING INK — living word effects
+   ======================================== */
+
+/* Whisperable word — base state: invisible, no hint */
+.whisperable-word {
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+  border-radius: 2px;
+  padding: 0 1px;
+}
+
+/* Hover: word breathes with a warm glow */
+.whisperable-word:hover,
+.whisperable-word--active {
+  color: #C9A227;
+  text-shadow: 0 0 12px rgba(201, 162, 39, 0.35),
+               0 0 30px rgba(201, 162, 39, 0.12);
+}
+
+/* Focus-visible for keyboard users */
+.whisperable-word:focus-visible {
+  outline: 1px solid rgba(201, 162, 39, 0.5);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Floating whisper panel glow dot pulse */
+@keyframes whisper-glow-pulse {
+  0%, 100% { opacity: 0.6; box-shadow: 0 0 4px rgba(201, 162, 39, 0.3); }
+  50% { opacity: 1; box-shadow: 0 0 10px rgba(201, 162, 39, 0.6); }
+}
+
+.whisper-glow-dot {
+  animation: whisper-glow-pulse 2s ease-in-out infinite;
+}
+
+/* Whisper panel toggle subtle pulse when has items */
+.whisper-panel-toggle {
+  transition: all 0.3s ease;
+}
+
+/* ========================================
+   REDUCED MOTION
+   ======================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

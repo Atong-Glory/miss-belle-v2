@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "title": "Miss Belle — Artiste de Spoken Word | La Toile du Cœur",
+    "description": "Mes mots venus de la toile de mon cœur. Raconter votre histoire comme si c'était mon expérience."
+  },
+  "nav": {
+    "about": "L'Artiste",
+    "performances": "La Bibliothèque",
+    "testimonials": "Voix",
+    "gallery": "Galerie",
+    "booking": "Réserver Miss Belle",
+    "contact": "Contact",
+    "mirrorRoom": "Le Miroir",
+    "originThread": "Le Voyage"
+  },
+  "hero": {
+    "tagline": "Mes mots venus de la toile de mon cœur.",
+    "subtitle": "Raconter votre histoire comme si c'était mon expérience.",
+    "cta": "Entrez sur Scène"
+  },
+  "about": {
+    "sectionTitle": "L'Artiste Derrière la Toile",
+    "sectionSubtitle": "MOH SANTITY ANKINBIMOM",
+    "bio1": "Originaire de Kom, dans la Région du Nord-Ouest du Cameroun, Miss Belle porte une voix forgée dans les hautes terres et affinée par les rythmes de la vie quotidienne. Ses mots ne sont pas simplement prononcés — ils sont respirés, vécus et offerts en cadeau à chaque âme prête à écouter. Les montagnes de Kom lui ont appris que le silence a un poids, et elle a appris à donner à ce poids une voix.",
+    "bio2": "Centrée sur Dieu dans chaque stance, sa poésie illumine les intersections de l'amour, de la justice, de l'identité et de la condition humaine. Elle ne prêche pas depuis une chaire — elle parle depuis la toile de son cœur, créant ainsi un espace où chaque auditeur devient le personnage de sa propre histoire de rédemption. Des rythmes ancestraux du royaume de Kom aux scènes des villes du Cameroun, son art relie le sacré et la parole.",
+    "bio3": "Que ce soit sur une scène de slam à Bamenda ou Douala, ou devant un rassemblement intime d'esprits affins à l'étranger, Miss Belle transforme le langage en lumière. Elle est bilingue — courante en anglais et en français — portant des histoires qui transcendent les frontières. Ses mots ne font pas qu'écho — ils persistent, comme la dernière note d'une chanson qui refuse de s'éteindre.",
+    "taglineMotif": "Mes mots venus de la toile de mon cœur. Raconter votre histoire comme si c'était mon expérience.",
+    "socialLabel": "Trouver Sa Voix"
+  },
+  "performances": {
+    "sectionTitle": "La Bibliothèque des Échos",
+    "sectionSubtitle": "Chaque mot, un monde en soi",
+    "tabByFlame": "Par Flamme",
+    "tabByStage": "Par Scène",
+    "tabBySeason": "Par Saison",
+    "experienceThis": "Vivre Cela",
+    "sharePoem": "Partager Ce Poème",
+    "themes": {
+      "faith": "Foi",
+      "love": "Amour",
+      "justice": "Justice",
+      "identity": "Identité",
+      "cameroon": "Cameroun"
+    },
+    "formats": {
+      "text": "Poème Texte",
+      "video": "Performance Vidéo",
+      "audio": "Enregistrement Audio"
+    },
+    "seasons": {
+      "2024": "Saison 2024",
+      "2023": "Saison 2023",
+      "2025": "Saison 2025"
+    },
+    "items": [
+      {
+        "id": "1",
+        "title": "The Canvas Speaks",
+        "lang": "en",
+        "theme": "faith",
+        "format": "text",
+        "season": "2024",
+        "excerpt": "I painted my prayers on walls no one could see, and God turned them into galleries of grace..."
+      },
+      {
+        "id": "2",
+        "title": "L'Écho du Terroir",
+        "lang": "fr",
+        "theme": "cameroon",
+        "format": "audio",
+        "season": "2024",
+        "excerpt": "Mon cœur bat au rythme des tam-tams de mon village, un battement qui traverse les océans..."
+      },
+      {
+        "id": "3",
+        "title": "Threads of Iron",
+        "lang": "en",
+        "theme": "justice",
+        "format": "video",
+        "season": "2024",
+        "excerpt": "They said silence was golden, but I've seen what gold does to the hands that hold it while others starve..."
+      },
+      {
+        "id": "4",
+        "title": "Tu Es Lumière",
+        "lang": "fr",
+        "theme": "love",
+        "format": "text",
+        "season": "2024",
+        "excerpt": "Dans l'obscurité de tes doutes, j'ai trouvé la clé de ta lumière, une lumière qui ne s'éteint jamais..."
+      },
+      {
+        "id": "5",
+        "title": "Daughter of the Soil",
+        "lang": "en",
+        "theme": "identity",
+        "format": "video",
+        "season": "2023",
+        "excerpt": "My grandmother's name is written in the lines of my palms, in the way I hold the mic like she held her hoe..."
+      },
+      {
+        "id": "6",
+        "title": "Le Cri Silencieux",
+        "lang": "fr",
+        "theme": "faith",
+        "format": "audio",
+        "season": "2023",
+        "excerpt": "Même dans le silence, Dieu entend le murmure d'un cœur qui cherche..."
+      },
+      {
+        "id": "7",
+        "title": "When the Soil Remembers",
+        "lang": "en",
+        "theme": "identity",
+        "format": "text",
+        "season": "2024",
+        "excerpt": "The earth holds memory in its cracks, and I am the daughter who reads them like scripture written before time..."
+      },
+      {
+        "id": "8",
+        "title": "Les Racines du Ciel",
+        "lang": "fr",
+        "theme": "faith",
+        "format": "audio",
+        "season": "2024",
+        "excerpt": "Ses racines plongent dans le ciel, un arbre à l'envers dont les feuilles sont des prières..."
+      },
+      {
+        "id": "9",
+        "title": "Bamenda to Buea",
+        "lang": "en",
+        "theme": "cameroon",
+        "format": "video",
+        "season": "2023",
+        "excerpt": "From the highlands to the coast, every mile is a stanza, every town a verse in the poem of home..."
+      },
+      {
+        "id": "10",
+        "title": "Le Prix du Silence",
+        "lang": "fr",
+        "theme": "justice",
+        "format": "text",
+        "season": "2023",
+        "excerpt": "Le silence a un prix que seuls les pauvres paient, assis dans l'ombre d'une justice qui ne vient jamais..."
+      },
+      {
+        "id": "11",
+        "title": "Psalm of the Mic",
+        "lang": "en",
+        "theme": "faith",
+        "format": "audio",
+        "season": "2025",
+        "excerpt": "Lord, make me an instrument of your rhythm. Let every syllable land like a seed on good soil..."
+      },
+      {
+        "id": "12",
+        "title": "Cœur de Kom",
+        "lang": "fr",
+        "theme": "cameroon",
+        "format": "text",
+        "season": "2025",
+        "excerpt": "Au cœur de Kom, les tambours parlent une langue que les mots ne peuvent pas traduire..."
+      },
+      {
+        "id": "13",
+        "title": "The Weight of Words",
+        "lang": "en",
+        "theme": "justice",
+        "format": "video",
+        "season": "2025",
+        "excerpt": "They told me words are cheap, so I made mine expensive — every poem costs me a piece of my peace..."
+      },
+      {
+        "id": "14",
+        "title": "Amour Sans Frontières",
+        "lang": "fr",
+        "theme": "love",
+        "format": "audio",
+        "season": "2025",
+        "excerpt": "L'amour ne connaît ni frontières ni passeports, il voyage dans le souffle d'un poème..."
+      },
+      {
+        "id": "15",
+        "title": "Stage of Ancestors",
+        "lang": "en",
+        "theme": "identity",
+        "format": "text",
+        "season": "2024",
+        "excerpt": "I stand on a stage built by people whose names I cannot pronounce, and I speak their language fluently..."
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionTitle": "Voix de la Foule",
+    "swipeHint": "Balayez pour explorer les voix",
+    "sectionSubtitle": "Ce qu'ils portent après que le micro est éteint",
+    "items": [
+      {
+        "id": "1",
+        "quote": "J'ai assisté à des événements de poésie à travers l'Afrique de l'Ouest et Centrale. Miss Belle ne se produit pas — elle transforme la salle. À la fin, on a l'impression d'avoir été à l'église, en thérapie et à un concert, tout à la fois.",
+        "author": "Achille N.",
+        "role": "Organisateur d'Événements, Douala",
+        "lang": "fr"
+      },
+      {
+        "id": "2",
+        "quote": "Sa voix est une prière qui marche sur scène. Quand elle parle, même les murs écoutent.",
+        "author": "Fatou D.",
+        "role": "Professeure de Littérature, Yaoundé",
+        "lang": "fr"
+      },
+      {
+        "id": "3",
+        "quote": "Nous avons réservé Miss Belle pour le gala annuel de notre entreprise. Le public est passé du formalisme corporatif à l'ovation debout en sept minutes. Elle est extraordinaire.",
+        "author": "Emmanuel T.",
+        "role": "Directeur d'Événements Corporatifs",
+        "lang": "fr"
+      },
+      {
+        "id": "4",
+        "quote": "Elle a parlé à la réception de mon mariage et il n'y avait pas un œil sec dans la salle. Elle a fait de notre histoire d'amour une écriture sacrée.",
+        "author": "Chantal & Jean-Pierre M.",
+        "role": "Mariage",
+        "lang": "fr"
+      }
+    ]
+  },
+  "booking": {
+    "sectionTitle": "Le Velours Rouge",
+    "sectionSubtitle": "Avancez. La scène attend votre histoire.",
+    "eventType": "Quel genre de scène construisez-vous ?",
+    "types": {
+      "wedding": "Mariage",
+      "church": "Événement d'Église",
+      "slam": "Soirée Slam",
+      "corporate": "Entreprise",
+      "private": "Rassemblement Privé",
+      "other": "Autre"
+    },
+    "dateLabel": "Choisissez Votre Date",
+    "seasonLabels": {
+      "spring": "Le Printemps des Mots",
+      "summer": "L'Été du Feu",
+      "autumn": "L'Automne des Échos",
+      "winter": "L'Hiver de la Réflexion"
+    },
+    "budgetLabel": "Sélectionnez Votre Investissement",
+    "budgetTiers": {
+      "whisper": {
+        "name": "Le Murmure",
+        "description": "Espaces intimes, scènes émergentes"
+      },
+      "voice": {
+        "name": "La Voix",
+        "description": "Prestations standards, événements privés"
+      },
+      "roar": {
+        "name": "Le Rugissement",
+        "description": "Scène principale, entreprise, festivals"
+      },
+      "legend": {
+        "name": "La Légende",
+        "description": "Exclusif, sur mesure, unique en saison"
+      }
+    },
+    "messageLabel": "Racontez-moi Votre Histoire",
+    "messagePlaceholder": "Racontez-moi votre histoire comme si c'était mon expérience...",
+    "contactLabel": "Vos Coordonnées",
+    "namePlaceholder": "Votre nom",
+    "emailPlaceholder": "Votre email",
+    "phonePlaceholder": "Votre téléphone (optionnel)",
+    "submit": "Réservez Votre Date",
+    "submitting": "La scène se prépare...",
+    "success": "Votre demande a rejoint la toile. Miss Belle vous contactera dans les 48 heures.",
+    "error": "Même le micro trébuche parfois. Réessayez."
+  },
+  "newsletter": {
+    "sectionTitle": "Le Cercle Intime",
+    "sectionSubtitle": "Accès au premier rang de l'inédit",
+    "description": "Premier accès aux performances, poèmes inédits et moments derrière la toile.",
+    "emailPlaceholder": "Votre adresse email",
+    "consent": "J'accepte de recevoir les mots de Miss Belle dans ma boîte de réception",
+    "submit": "Rejoindre le Premier Rang",
+    "submitting": "On vous trouve votre place...",
+    "success": "Bienvenue au premier rang.",
+    "error": "Quelque chose s'est mal passé. Veuillez réessayer."
+  },
+  "footer": {
+    "tagline": "Mes mots venus de la toile de mon cœur.",
+    "builtWith": "Construit avec révérence pour la parole parlée.",
+    "copyright": "© {year} Miss Belle. Tous droits réservés.",
+    "socialLabel": "Suivre la Voix",
+    "developedBy": "Développé par"
+  },
+  "brand": {
+    "name": "MISS BELLE"
+  },
+  "language": {
+    "en": "EN",
+    "fr": "FR"
+  },
+  "loading": {
+    "default": "La scène se prépare..."
+  },
+  "error": {
+    "default": "Même le micro trébuche parfois. Réessayez."
+  },
+  "stats": {
+    "poemsPerformed": "Poèmes Interprétés",
+    "stagesLit": "Scènes Illuminées",
+    "yearsOfVoice": "Années de Voix"
+  },
+  "gallery": {
+    "sectionTitle": "Derrière la Toile",
+    "sectionSubtitle": "Moments capturés entre les mots",
+    "filterAll": "Tout",
+    "filterStage": "Scène",
+    "filterBehind": "Coulisses",
+    "filterEvents": "Événements",
+    "closeLightbox": "Fermer la visionneuse",
+    "previousImage": "Image précédente",
+    "nextImage": "Image suivante",
+    "imageCounter": "Image {current} sur {total}"
+  },
+  "whatsapp": {
+    "tooltip": "Discuter sur WhatsApp",
+    "message": "Bonjour Miss Belle ! Je souhaiterais vous réserver pour un événement."
+  },
+  "cookieConsent": {
+    "title": "Cette Scène Utilise des Cookies",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience et mémoriser vos préférences de langue et de thème. Pas de suivi, pas de publicités — juste la poésie.",
+    "accept": "Accepter et Continuer",
+    "decline": "Uniquement l'Essentiel"
+  },
+  "preloader": {
+    "loading": "La scène se prépare..."
+  },
+  "a11y": {
+    "skipToContent": "Aller au contenu principal",
+    "openMenu": "Ouvrir le menu de navigation",
+    "closeMenu": "Fermer le menu de navigation",
+    "toggleLanguage": "Changer de langue",
+    "scrollToTop": "Retour en haut",
+    "playVideo": "Lire la vidéo",
+    "expandPoem": "Lire le poème complet",
+    "collapsePoem": "Réduire le poème",
+    "shareWhatsApp": "Partager sur WhatsApp",
+    "shareTwitter": "Partager sur X",
+    "shareFacebook": "Partager sur Facebook",
+    "switchToLight": "Passer en mode clair",
+    "switchToDark": "Passer en mode sombre",
+    "toggleTheme": "Changer de thème"
+  },
+  "emotionalMap": {
+    "title": "La Boussole Émotionnelle",
+    "subtitle": "De quoi avez-vous besoin ce soir ?",
+    "allMoods": "Toutes les Émotions",
+    "surpriseMe": "Surprenez-moi",
+    "noMatch": "Aucun poème ne résonne avec ce sentiment... pour l'instant.",
+    "moods": {
+      "grief": "Chagrin",
+      "love": "Amour",
+      "rage": "Colère",
+      "hope": "Espoir",
+      "longing": "Désir",
+      "faith": "Foi",
+      "identity": "Identité",
+      "freedom": "Liberté",
+      "joy": "Joie",
+      "loss": "Perte"
+    }
+  },
+  "mirrorRoom": {
+    "title": "La Chambre des Miroirs",
+    "subtitle": "Un espace privé pour ce que ses mots ont éveillé en vous",
+    "placeholder": "Laissez les mots vous trouver...",
+    "clear": "Essuyer le Miroir",
+    "privacy": "Vos mots restent ici — ils ne sont jamais envoyés ni stockés nulle part.",
+    "dailyPrompt": "Réflexion du Jour"
+  },
+  "originThread": {
+    "title": "Le Fil des Origines",
+    "subtitle": "Le voyage du silence à la voix"
+  },
+  "voicedCanvas": {
+    "listen": "Écouter",
+    "pause": "Pause",
+    "play": "Lecture",
+    "close": "Fermer"
+  },
+  "komCodex": {
+    "culturalNote": "Note Culturelle",
+    "proverbLoading": "La sagesse des anciens..."
+  },
+  "whisperingInk": {
+    "panelTitle": "Murmures Collectés",
+    "openPanel": "Ouvrir les murmures collectés",
+    "closePanel": "Fermer les murmures collectés",
+    "emptyHint": "Cliquez sur les mots lumineux pour collecter des murmures...",
+    "lifetimeCount": "{count} murmures collectés",
+    "releaseAll": "Libérer dans le Vent",
+    "released": "Emportés par la brise..."
+  }
+}
